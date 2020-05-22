@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="zh">
+	<head>
+	<meta charset="utf-8" />
+    <title>注册</title>
+		<style>
+			<!--
+			a{ color:red;text-decoration: none;font-weight: 800}
+			a:hover{background:green}
+			.form{background-color:rgba(152,231,238,0.6) ;
+					width:360px;
+					height:380px;
+				    margin: auto;
+				    text-align: center;
+				    padding:10px ;margin-top: 160px}
+			input{height:25px;margin: 15px;width:240px}
+			body{background-image:url(img/c-09-36.jpg) ;
+				background-repeat: no-repeat;
+				background-size:cover;
+				color:#fff}
+			.register{background-color:rgba(19,81,44,0.5);
+					   text-align:center;
+						color:#fff;height:30px;width:100px}
+		
+				-->
+		</style>
+	</head>
+	<body>
+		<h2><a href="index.html" target="_blank">中式建筑网</a></h2>
+			<form class="form">
+			 <fieldset>
+				<legend>账号注册</legend>
+
+					<label for="name">昵称:</label>
+					<input type="text" id="name" name="username" required="required" placeholder="用户名">
+				
+					<label for="email">邮箱:</label>
+					<input type="email" id="email" name="email">
+			
+					<label for="password">密码:</label>
+					<input type="password" id="password" name="password" placeholder="不少于6位，不能只是数字">
+					<label for="password2">确认:</label>
+					<input type="password" id="password2" name="password2" >
+				 	<input type="submit" name="register" value="注册" class="register">
+				 	<p>已有账号？立即<a href="login.html" target="_blank">登录</a></p>
+		</fieldset>
+		</form>
+		
+</body>
+</html>
